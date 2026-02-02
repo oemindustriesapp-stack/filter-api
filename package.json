@@ -1,0 +1,14 @@
+{
+  "name": "zoho-creator-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for Zoho Creator API used by Zoho Commerce frontend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
