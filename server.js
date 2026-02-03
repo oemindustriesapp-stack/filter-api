@@ -53,7 +53,7 @@ app.get("/validate-products", async (req, res) => {
   }
 
   const creatorUrl =
-    "https://www.zohoapis.in/creator/custom/demo20ashprotech/Test_API" +
+    "https://www.zohoapis.com/creator/custom/oemcommercelogin/GetData" +
     `?publickey=${process.env.CREATOR_KEY}` +
     `&in_year=${encodeURIComponent(year)}` +
     `&in_make=${encodeURIComponent(make)}` +
