@@ -10,7 +10,7 @@ app.use(express.json());
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://oem-industries.zohoecommerce.com"
+    "https://www.oemcatalyticconverters.com"
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
